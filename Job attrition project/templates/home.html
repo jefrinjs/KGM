@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Attrition Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="home_bg">
+    <div class="container">
+        <div class="card">
+            <h2>Employee Attrition Prediction</h2>
+            <form action="/predict" method="post">
+
+                <label for="education">Education</label>
+                <select id="education" name="education" required>
+                    <option value="Bachelors">Bachelors</option>
+                    <option value="Masters">Masters</option>
+                    <option value="PHD">PHD</option>
+                </select>
+
+                <label for="joining_year">Joining Year</label>
+                <input type="number" id="joining_year" name="joining_year" min="2000" max="2030" required>
+
+                <label for="city">City</label>
+                <select id="city" name="city" required>
+                    <option value="chennai">Chennai</option>
+                    <option value="bangalore">Bangalore</option>
+                    <option value="pune">Pune</option>
+                </select>
+
+                <label for="payment_tier">Payment Tier</label>
+                <select id="payment_tier" name="payment_tier" required>
+                    <option value="1">Tier 1</option>
+                    <option value="2">Tier 2</option>
+                    <option value="3">Tier 3</option>
+                </select>
+
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" min="18" max="65" required>
+
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+
+                <label for="ever_benched">Ever Benched</label>
+                <select id="ever_benched" name="ever_benched" required>
+                    <option value="No">No</option>
+                    <option value="Yes">Yes</option>
+                </select>
+
+                <label for="exp_domain">Experience in Current Domain (Years)</label>
+                <input type="number" id="exp_domain" name="exp_domain" min="0" max="40" required>
+
+                <button type="submit">Predict</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
