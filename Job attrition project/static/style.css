@@ -1,0 +1,127 @@
+/* General Page Styling */
+.home_bg{
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(home1.jpg);
+    background-size: cover;   /* makes it fit screen */
+    background-attachment: fixed; /* stays fixed on scroll */
+    background-position: center
+}
+
+.result_bg{
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(result2.jpg);
+    background-size: cover;   /* makes it fit screen */
+    background-attachment: fixed; /* stays fixed on scroll */
+    background-position: center
+}
+
+/* Form Container */
+.container {
+    width: 420px;
+    /* background: #fff; */
+    /* padding: 25px 30px; */
+    /* border-radius: 12px; */
+    /* box-shadow: 0 4px 15px rgba(0,0,0,0.2); */
+    text-align: left;
+    /* margin-left: 60px; */
+}
+
+.container_res {
+    width: 420px;
+    background: #fff;
+    /* padding: 25px 30px; */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: left;
+    margin-left: 60px;
+}
+
+/* Heading */
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1ee210;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Inputs and Dropdowns */
+input[type="number"],
+input[type="text"],
+select {
+    width: 300px;
+    padding: 5px;
+    margin-top: 6px;
+    border: 1px solid #c50c0c;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border 0.3s ease;
+    margin: auto;
+    margin-left: 50px;
+}
+
+input:focus,
+select:focus {
+    border: 1px solid teal;
+    outline: none;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 18px;
+    background: teal;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: rgb(19, 2, 86);
+}
+
+/* Result Page */
+.result {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+    margin: 20px 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    color: teal;
+    font-weight: bold;
+    margin-left: 170px;
+}
+
+a:hover {
+    color: darkcyan;
+}
