@@ -1,0 +1,22 @@
+2025-11-04 19:22:02,Hi,"[Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+]"
+2025-11-04 19:31:01,Hi!,"[Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: YOUR_API*****HERE. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}]"
+2025-11-04 19:31:35,hi,"[Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: YOUR_API*****HERE. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}]"
+2025-11-04 19:32:31,Hi!,"[Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: YOUR_API*****HERE. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}]"
+2025-11-04 19:47:37,Hi!,"[Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}]"
+2025-11-04 19:52:55,Hi!,"[Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}]"
+2025-11-04 19:58:22,Hi!,"[Error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}]"
+2025-11-04 20:00:30,Hi!,"[Error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-***********9.... You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}]"
+2025-11-04 20:09:55,Hi!,Hello! How can I assist you today? 😊
+2025-11-04 20:18:26,How are you?,"I'm just a chatbot, but I'm here and ready to help you! How about you? How are you doing today? 😊"
+2025-11-05 11:16:42,HII,Hello! 😊 How can I assist you today? Let me know what you need help with or just say hi!
+2025-11-05 11:16:50,hi,Hi there! 👋 Nice to meet you. How's your day going so far?
+2025-11-05 11:17:09,what is machine learning,"Machine learning is a type of artificial intelligence that allows computers to learn from data without being explicitly programmed. It involves training algorithms to recognize patterns and make decisions based on data. Common applications include recommendation systems, speech recognition, and image analysis. Would you like an example?"
